@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Whitney Shisia's Portfolio - Web Developer & Journalist" />
+  <meta name="author" content="Whitney Shisia" />
+  <title>Whitney Shisia | Portfolio & Contact</title>
+</head>
+<body>
+
+  <header>
+    <h1>Whitney Shisia</h1>
+    <p>Developer & Storyteller | Blending code with creativity</p>
+  </header>
+
+  <nav aria-label="Main Navigation">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#hobbies">Hobbies</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>
+        I'm a software developer and journalist passionate about building accessible web experiences and telling meaningful stories through tech.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>HTML5, CSS3, JavaScript</li>
+        <li>React, Next.js, Firebase</li>
+        <li>Python, Flask, SQL</li>
+        <li>Git, Linux, Agile Workflow</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Project Overview</h2>
+      <table border="1" aria-label="Project Table">
+        <thead>
+          <tr>
+            <th>Project</th>
+            <th>Tech Stack</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>SmartPoll</td>
+            <td>Next.js, Firebase</td>
+            <td>Live</td>
+          </tr>
+          <tr>
+            <td>Library Manager</td>
+            <td>React, Flask</td>
+            <td>In Progress</td>
+          </tr>
+          <tr>
+            <td>StoryBlog</td>
+            <td>Jekyll, Markdown</td>
+            <td>Published</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobby Highlights</h2>
+      <p>Listening to music,
+        Here's my favorite music:</p>
+        <iframe width="300" height="60" src="https://vocaroo.com/embed/16xbFa5caXvG?autoplay=0" frameborder="0" allow="autoplay">
+        </iframe>
+      <p>Painting :Here's my favourite artwork:</p>
+        <img src="https://i.ibb.co/B5SgkMQV/img2.jpg" alt="Favourite artwork" width="400" />
+      </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post" autocomplete="on">
+        <fieldset>
+          <legend>Personal Information</legend>
+          
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" required minlength="3" placeholder="e.g. Whitney Shisia" /><br><br>
+
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" required placeholder="e.g. whitney@example.com" /><br><br>
+
+          <label for="phone">Phone Number:</label><br>
+          <input type="tel" id="phone" name="phone" pattern="[0-9]{10,15}" placeholder="e.g. 0712345678" /><br><br>
+        </fieldset>
+
+        <fieldset>
+          <legend>Project Inquiry</legend>
+
+          <label for="service">Type of Service:</label><br>
+          <select id="service" name="service" required>
+            <option value="">--Select One--</option>
+            <option value="webdev">Web Development</option>
+            <option value="journalism">Content Creation</option>
+            <option value="consulting">Consultation</option>
+          </select><br><br>
+
+          <label for="budget">Estimated Budget (USD):</label><br>
+          <input type="number" id="budget" name="budget" min="50" max="10000" /><br><br>
+
+          <label for="message">Message:</label><br>
+          <textarea id="message" name="message" rows="4" cols="50" required placeholder="Describe your idea or inquiry..."></textarea><br><br>
+
+          <label>
+            <input type="checkbox" name="subscribe" checked />
+            Subscribe to my newsletter
+          </label><br><br>
+        </fieldset>
+
+        <input type="submit" value="Submit Inquiry" />
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Whitney Shisia. All rights reserved.</p>
+    <address>
+      Email: <a href="mailto:shisiawhitney215@gmail.com">shisiawhitney215@gmail.com</a>
+    </address>
+  </footer>
+
+</body>
+</html>
